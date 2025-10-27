@@ -1,0 +1,3 @@
+onlyBuiltDependencies:
+  - '@robinbobin/prettier-config'
+  - unrs-resolver
