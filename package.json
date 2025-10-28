@@ -29,7 +29,9 @@
   },
   "files": [
     "eslint.config.js",
+    "eslint.config.js_",
     "js",
+    "postinstall.sh",
     "ruleOptions"
   ],
   "homepage": "https://github.com/RobinBobin/eslint-config#readme",
@@ -55,6 +57,7 @@
     "url": "git+ssh://git@github.com/RobinBobin/eslint-config.git"
   },
   "scripts": {
+    "postinstall": "chmod u+x postinstall.sh && ./postinstall.sh",
     "prepack": "./prepack.sh",
     "prettify": "tsc && eslint --fix && prettier . --write"
   },
