@@ -55,6 +55,7 @@
     "url": "git+ssh://git@github.com/RobinBobin/eslint-config.git"
   },
   "scripts": {
+    "prepack": "./prepack.sh",
     "prettify": "tsc && eslint --fix && prettier . --write"
   },
   "type": "module",
