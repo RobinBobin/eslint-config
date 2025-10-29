@@ -8,6 +8,6 @@ Install the following packages:
 
 ## <a name='config_eslint.config.js'></a>eslint.config.js
 
-A script invoked during `postinstall` copies a sample ESLint config, named `eslint.config.js_<number>` to your project root dir. Don't forget to rename the file, deleting the `_<number>` part. You can copy this file manually if you don't want to let `postinstall` execute:
+The script invoked during `postinstall` copies a sample ESLint config to your project root dir, naming the file `eslint.config.js_<number>`. Don't forget to delete the `_<number>` part from the file name. You can copy this sample config manually if you don't want to let `postinstall` execute:
 
-    cp node_modules/@robinbobin/eslint-config/eslint.config.js_<number> ./eslint.config.js
+    cp node_modules/@robinbobin/eslint-config/eslint.config.js_ ./eslint.config.js
