@@ -25,7 +25,7 @@ export default defineConfig([
   typescriptEslintConfigs.stylisticTypeChecked,
   {
     extends: ['import-x/flat/recommended', 'import-x/flat/typescript'],
-    files: ['**/*.{js,mjs,cjs,ts,mts,cts}'],
+    files: ['**/*.{js,jsx,mjs,cjs,ts,tsx,mts,cts}'],
     languageOptions: {
       ecmaVersion: 'latest',
       parser: tsParser,
