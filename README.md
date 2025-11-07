@@ -2,7 +2,7 @@
 
 Install the following packages:
 
-    pnpm i --save-dev @robinbobin/eslint-config
+    pnpm i --save-dev @robinbobin/eslint-config eslint@^9.39.1
 
 # Config files
 
